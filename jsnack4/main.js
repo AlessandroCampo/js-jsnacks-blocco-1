@@ -3,6 +3,7 @@
 
 
 const arrayOfInteg = Array.from({ length: 30 }, () => Math.floor(Math.random() * 100));
+const resultHTML = document.getElementById("result_p")
 
 
 
@@ -27,5 +28,6 @@ for (let i = 0; i <= arrayOfInteg.length; i++) {
     }
 }
 
-document.writeln(`L'array casuale è ${arrayOfInteg} e la somma dei numeri delle posizioni dispari  è ${allOddsSum}`)
-
+resultHTML.innerText = `L'array casuale è ${arrayOfInteg} e la somma dei numeri delle posizioni dispari  è ${allOddsSum}`
+resultHTML.style.color = "white"
+resultHTML.style.fontSize = "35px"
