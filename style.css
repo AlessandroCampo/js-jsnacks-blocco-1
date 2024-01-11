@@ -20,6 +20,8 @@ body {
     transform: translate(-50%, -50%);
 }
 
+
+
 #insert_number>h2,
 #insert_number>p {
     text-align: center;
@@ -50,4 +52,11 @@ button {
     font-size: bold;
     color: cornflowerblue;
     font-size: 1.1em;
+}
+
+
+#guest_list {
+    height: 200px;
+    overflow-y: auto;
+
 }
