@@ -1,0 +1,53 @@
+#user_number {
+    width: 15%;
+    font-size: 40px;
+}
+
+body {
+    background-color: cornflowerblue;
+}
+
+#insert_number {
+    color: white;
+    font-size: 25px;
+    width: 500PX;
+    border: 1px solid white;
+    padding: 3em;
+    background-color: rgba(255, 255, 255, 0.3);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#insert_number>h2,
+#insert_number>p {
+    text-align: center;
+}
+
+#insert_number>div {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+button {
+    color: white;
+    background-color: cornflowerblue;
+    border: 1px solid white;
+    border-radius: 20px;
+    padding-inline: 10px;
+    width: 100px;
+    cursor: pointer;
+}
+
+#button_2 {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.highlight {
+    font-size: bold;
+    color: cornflowerblue;
+    font-size: 1.1em;
+}
